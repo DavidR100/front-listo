@@ -1,27 +1,33 @@
-# Frontend
+# FrontendPruebalisto
+Proyecto realizado con [Angular CLI](https://github.com/angular/angular-cli) version 4.0.4
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+## Tecnologias Utilizadas
+Material Angular y Angular
 
-## Development server
+## Instalacion del Proyecto
+Instalr [nodejs](https://nodejs.org/es/) version 14.20.0
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Descargar el Proyecto en el repositorio con el comando: *git clone*:
+[https://github.com/DavidR100/front-listo.git](https://github.com/DavidR100/front-listo.git)
 
-## Code scaffolding
+O descargado como archivo .zip
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Ejecucion del Programa
 
-## Build
+### Preparación del Frontend Angular: 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+(OPCIONAL: por si no reconoce o no instalan los repositorios):
+Abrir proyecto en una terminal y ejecutar el comando:$npm i
 
-## Running unit tests
+Asi se instalaran los repositorios que se necesitan.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Ejecutamos el server: $ng serve 
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* Despue de haber iniciado el servido entramos a un naveador e inicializamos el proyecto
+con [http://.localhost:4200/](http://.localhost:4200/)
 
-## Further help
+# Instalacion de CORS para consumir API
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Necesitaremos instalar la estencion de [CORS Unblock](https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino), ya que a realizar las peticiones al API
+'CORS' nos negaba el acceso.
